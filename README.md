@@ -5,9 +5,9 @@
 
 Containerised nginx server for easy sharing of a directory.
 
-> ⚠️ This container is not suitable for website hosting as it allows for someone to browser the website directory.
+> ⚠️ This container is not suitable for website hosting as it allows someone to browser the website directory.
 
-> ⚠️ This container supports only HTTP instead of HTTPS for now as my primary goal is to use this locally on a trusted network. HTTPS support might be added in the future. You should take steps, such as running it behind a reverse proxy with HTTPS if you want to encrypt your traffics.
+> ⚠️ This container supports only HTTP instead of HTTPS for now as my primary goal is to use this locally on a trusted network. HTTPS support might be added in the future. You should take steps, such as running it behind a reverse proxy with HTTPS if you want to encrypt your traffic.
 
 ```sh
 podman pull ghcr.io/chen-ky/nginx-share:latest
